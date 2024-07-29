@@ -94,11 +94,13 @@ The hybrid system provides personalized movie recommendations that take into acc
 Example output:
 ```
 Model RMSE: 0.8976
-Recommendations for 'The Dark Knight':
-1. Batman Begins (2005) - Estimated Rating: 4.2
-2. The Dark Knight Rises (2012) - Estimated Rating: 4.1
-3. Inception (2010) - Estimated Rating: 4.0
-...
+
+                     title  year  vote_average  est_rating  combined_score                                       gpt_analysis
+0         The Dark Knight  2008           8.4    4.523678        4.466103  The Dark Knight (2008) is a gritty and intense superhero thriller that explores themes of chaos, morality, and the thin line between heroism and villainy, with a dark, realistic style that redefined the genre. This film is suitable for you if you enjoy complex character studies and thought-provoking narratives that challenge traditional notions of good and evil in a visually stunning package.
+1  The Dark Knight Rises  2012           7.7    4.321456        4.225019  The Dark Knight Rises (2012) is an epic conclusion to Christopher Nolan's Batman trilogy, blending superhero action with political thriller elements and themes of redemption and societal upheaval. It's suitable for viewers who appreciate grandiose storytelling and character-driven narratives that explore the consequences of heroism and the struggle for justice in a morally gray world.
+2          Batman Begins  2005           7.6    4.198765        4.139336  Batman Begins (2005) is a dark and gritty reimagining of the Batman origin story, focusing on themes of fear, justice, and personal transformation, with a realistic style that grounds the superhero mythos. This film is ideal for those who enjoy character-driven narratives and psychological depth in their superhero movies, offering a fresh and mature take on a familiar icon.
+3              Inception  2010           8.3    4.087654        4.026358  Inception (2010) is a mind-bending sci-fi thriller that explores the nature of reality and the power of ideas through its intricate dreamscape narrative and stunning visual style. It's perfect for viewers who relish intellectual challenges and visually innovative storytelling, offering a unique blend of action, philosophy, and emotional depth that rewards multiple viewings.
+4         Batman Forever  1995           5.4    3.976543        3.781880  Batman Forever (1995) is a campy and colorful take on the Batman franchise, emphasizing style over substance with its neon-drenched visuals and over-the-top performances. This film is suitable for those who enjoy lighter, more comic book-inspired superhero adventures and appreciate the nostalgic charm of 90s blockbusters with their exaggerated characters and flashy action sequences.
 ```
 
 ## Future Improvements
